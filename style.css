@@ -1,0 +1,41 @@
+
+h1 {
+    font-size: 50px;
+  }
+
+
+img {
+    margin-top: 80px;
+}
+
+
+.container{
+    margin-top: 50px;
+    height: 300px;
+    width:100%;
+}
+
+#display{
+    width:100%;
+    font-size: 200px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.buttons{
+
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: rgb(10, 39, 97);
+    display: inline-block;
+    font-size: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 15px 32px;
+    font-family: "Times New Roman";
+    border-radius: 20px;
+
+}
+
+
