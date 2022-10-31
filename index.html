@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stopwatch</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="index.js"></script>
-</head>
-<body style="background-color:rgb(229, 217, 216);text-align:center;">
-<h1>STOPWATCH</h1>
-    <div style="font-family: 'Times New Roman', Times, serif;"></div>
+  </head>
+  <body style="background-color: rgb(229, 217, 216); text-align: center">
+    <div id="wrapper"></div>
+    <h1>STOPWATCH</h1>
+    <div style="font-family: 'Times New Roman', Times, serif"></div>
     <div class="container">
-        <div id="display">
-            00:00:00
-        </div>
-        <div >
-            <button id="startStopButton" class="buttons" onclick="startStop()">START</button>
-            <button id="resetButton" class="buttons" onclick="reset()">RESET</button>
-        </div>
+      <div id="display">00:00:00</div>
+      <div>
+        <button id="startStopButton" class="buttons" onclick="startStop()">
+          START
+        </button>
+        <button id="resetButton" class="buttons" onclick="reset()">
+          RESET
+        </button>
+      </div>
     </div>
-    
-    <div style="width:100%;height:0;padding-bottom:100%;position:relative;margin-top:100px; margin-right: 100%; margin-left: -5%;"><iframe src="https://giphy.com/embed/rWJRwQVItkY4E" width="10%" height="10%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/stickers/qt-rWJRwQVItkY4E">via GIPHY</a></p>
-    
-</body>
+
+    <div
+      style="
+        width: 100%;
+        height: 0;
+        padding-bottom: 5%;
+        position: relative;
+        margin-top: 100px;
+        margin-right: 100%;
+        margin-left: -5%;
+      "
+    >
+      <iframe
+        src="https://giphy.com/embed/rWJRwQVItkY4E"
+        width="10%"
+        height="500%"
+        style="position: absolute"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <!-- <p><a href="https://giphy.com/stickers/qt-rWJRwQVItkY4E">via GIPHY</a></p> -->
+  </body>
 </html>
