@@ -1,2 +1,2 @@
 # Stopwatch
-My first go at using html, css, and javascript with a stopwatch! https://khushbooc8.github.io/Stopwatch/
+My first go at using HTML, CSS, and JavaScript with a stopwatch! Try it here: https://khushbooc8.github.io/Stopwatch/
